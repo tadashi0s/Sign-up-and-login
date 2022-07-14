@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Login.css">
+    {{!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> --}}
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="login-wrap">
+        <div class="login">
+            <p>Login in</p>
+        <form id="login" class="login-form" action="/login" method="post">
+            <input type="email" placeholder="Email" class="pass" name="email"/>
+            <input type="password" placeholder="Password" class="pass" name="password"/>
+            <button id="btn" type="submit" class="btn btn-primary btn-sm">Login</button>
+        </form>
+         <div class="sign-up">
+        {{!-- <a href="#">Forget Password?</a> --}}
+        <a href="/sign">Sign-up</a>
+    </div>
+        </div>
+    </div>
+    {{!-- <script src="./Login.js"></script> --}}
+</body>
+
+</html>

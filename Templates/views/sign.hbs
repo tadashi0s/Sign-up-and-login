@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Sign.css">
+    {{!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> --}}
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="signup-wrap">
+        <div class="sign-up">
+            <span>Sign up</span>
+            <form action="/sign" method="POST" class="signup-form">
+                <input type="text" placeholder="First Name" class="pass" name="firstname"> 
+                <input type="text" placeholder="Last Name" class="pass" name="lastname">
+                <input type="email" placeholder="Email" class="pass" name="email">
+                <input type="Password" placeholder="Choose password" class="pass" name="password">
+                <input type="Password" placeholder="Confirm password" class="pass" name="confirmpassword">
+                <button id="btn" type="submit" name="submit" class="btn btn-primary btn-sm">Sign-Up</button>
+            </form>
+        </div>
+    </div>
+    {{!-- <script src="./Sign.js"></script> --}}
+</body>
+</html>

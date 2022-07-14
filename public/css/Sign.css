@@ -1,0 +1,58 @@
+body{
+	font-family: "Helvetica Neue", sans-serif;
+	background-image:url('https://wallpaperaccess.com/full/38598.jpg');
+	background-size:2000px 1000px;
+  background-position:top center;
+}
+.signup-wrap{
+	width:290px;
+	height:320px;
+	margin:10% auto 0;
+	position: relative;
+}
+.sign-up{
+	display: block;
+	margin:auto;
+	padding:40px 40px 30px;
+	position: absolute;
+	background-color:#f8f8f8;
+	background-image:-webkit-linear-gradient(top, #f0f0f0, #ddd);
+  background-image:-moz-linear-gradient(top, #f0f0f0, #ddd);
+  background-image:linear-gradient(top, #f0f0f0, #ddd);
+	border-radius:5px;
+	border:#fff 1px solid;
+	box-shadow: rgba(0,0,0,0.5) 0px 3px 20px;
+	text-align: center;
+}
+.sign-up span{
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+}.pass{
+	display: block;
+	width:170px;
+	margin:20px auto;
+	padding:10px 25px 10px 10px;
+	border-radius:3px;
+	border:#CCC 1px solid;
+}
+#btn{
+    font-family: 'Times New Roman', Times, serif;
+    border-color: royalblue;
+    border-radius: 2px;
+    opacity: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+	margin-left: 8px;
+	margin-right: 8px;
+	background-color: royalblue;
+	color: white;
+}
+#btn:hover{
+    /* background-color: royalblue;
+    color: white; */
+	cursor: pointer;
+}
+
